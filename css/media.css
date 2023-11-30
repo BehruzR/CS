@@ -1,0 +1,58 @@
+@media (max-width: 1300px) {
+    .section {
+        background: url(../img/Bg.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .header__wrap{
+        padding: 50px 20px;
+    }
+}
+@media (max-width: 864px) {
+    .header__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .main__tournir{
+        margin: 0 20px 100px 20px;
+    }
+    .main__tournir-champions-up{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 790px) {
+    .main__updates-img{
+        flex-wrap: wrap;
+    }
+    .main__tournir-champions-up{
+        flex-direction: wrap;
+    }
+}
+@media (max-width: 650px) {
+    .main__updates-img{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 468px) {
+    .header__menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main__tournir-champions-img{
+        width: 100%;
+    }
+    .main__updates-img{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__searchselection{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main__updates-img{
+        flex-wrap: wrap;
+    }
+}

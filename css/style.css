@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Qu-R';
+}
+
+@import url(../fonts/Quantico-Regular.ttf);
+
+
+body {
+    background-color: #000;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #272C3D;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.header__menu {
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.header__menu-item {
+    color: #FFFFFF;
+
+}
+
+.header__menu-a {
+    color: #FFFFFF;
+}
+
+.header__menu-a:hover {
+    color: #FF9C28;
+}
+
+.header__searchselection {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.input {
+    margin: 20px 0;
+}
+
+.header__select {
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+    background: #00000080;
+    color: #FFFFFFCC;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #404864;
+    height: 30px;
+}
+
+.input {
+    background: transparent;
+    width: 190px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.inputbuttom {
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.section {
+    background: url(../img/Bg.png);
+    background-size: 105%;
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transform: translateY(-20px);
+}
+
+.section__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-90px);
+    /* transform: translateY(-160px);
+    transform: translateX(); */
+}
+
+.section-h {
+    color: #FFFFFF;
+}
+
+.section-p {
+    color: #FFFFFF;
+}
+
+.main__updates-h {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__updates-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main__updates-img::after {
+    content: '';
+    background: url(../img/left.png);
+    position: absolute;
+    right: 10px;
+    width: 15px;
+    height: 30px;
+    left: 10px;
+    top: 50%;
+    
+}
+
+.main__updates-img::before {
+    content: '';
+    background: url(../img/left.png);
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    right: 0;
+    top: 50%;
+    transform: scaleX(-1px);
+    -webkit-transform: scaleX(-1);
+}
+
+.main__doght {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main__doght-item {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #A7A7A7;
+    margin-bottom: 13px;
+}
+
+.active {
+    background: #FFFFFF;
+}
+
+.main__tournir {
+    background: #1B1E27;
+    padding: 30px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-bottom: 100px;
+}
+
+
+
+.main__tournir-strart-h {
+    color: #FFFFFF;
+}
+
+.main__tournir-twice {
+    color: #FFFFFF;
+    display: flex;
+    gap: 4px;
+}
+
+.main__tournir-champions-up {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+
+}
+main__updates-img
+.main__tournir-antwerp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main__tournir-champions-img {
+    width: 400px;
+    height: 234px;
+}
+
+.main__tournir-champions-pes p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #BFBFBF;
+}
+
+.main__tournir-champions-pes p:nth-child(1) {
+    margin-bottom: 25px;
+}
+
+.main__tournir-champions-p {
+    font-size: 14px;
+    color: #BFBFBF;
+
+}
+
+.main__tournir-champions-p p:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.main__tournir-champions-links {
+    display: flex;
+
+    gap: 10px;
+
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.main__antwerp-strart {
+    color: #FFFFFF;
+
+}
+
+.main__antwerp-twice {
+    display: flex;
+}
+
+.main__tournir-antwerp-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.main__updates-img-widht{
+ width: 200px;   
+}
